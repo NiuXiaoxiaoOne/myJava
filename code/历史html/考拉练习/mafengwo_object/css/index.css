@@ -1,0 +1,43 @@
+/* 阴影 */
+.header{
+    height: 57px;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.4); /* 阴影:往右移 阴影长度 虚化程度 阴影颜色*/
+    border-bottom: 1px solid white;
+}
+/* 版心 */
+.header .inner{
+    width: 1000px;
+    height: 57px;
+    margin: 0 auto;
+}
+.header .inner .logo{
+    float: left;
+    padding-top: 13px;
+    width: 120px;
+    margin-right: 41px; 
+}
+.header .inner .logo a{
+    display: block;
+    width: 120px;
+    height: 30px;
+    background: url(../images/logo.png);
+}
+.header .inner .logo a h1{
+    width: 120px;
+    height: 0px;
+    padding-top: 30px;
+    overflow: hidden;
+}
+.header .inner .nav{
+    float: left;
+}
+.header .inner .nav ul li{
+    float: left;
+}
+.header .inner .nav ul li a{
+    display: block;
+    height: 30px;
+    line-height: 58px;
+    padding: 0 16px;
+}
+

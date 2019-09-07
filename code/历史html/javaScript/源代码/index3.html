@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- 网址导入jquery
+    <script type="text/javascript"
+        src="http://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" 
+        crossorigin="anonymous">
+    </script>
+    -->
+    <!-- 通过本地路径导入jquery -->
+    <script type="text/javascript"
+        src="./jquery-3.4.1.min.js">
+    </script>
+</head>
+<body>
+    <!-- 
+        $: 定义jQuery
+        document: 选择符，会执行对元素的操作
+        $p: 创建一个变量
+        $('#imooc2'): 定位为id为imooc2的元素
+        .html(...): 更改$p指定元素的内容
+        .css(...): 更改颜色
+    -->
+    <script>
+        $(document).ready(function() {
+            var $p = $('#imooc2');
+            $p.html('欢迎进入jQuery的世界').css('color','red');
+        })
+    </script>
+    <p id="imooc1"></p>
+    <p id="imooc2"></p>
+</body>
+
+</html>

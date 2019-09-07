@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        a{
+            text-decoration: none; /* 不加下划线 */
+        }
+        a:hover{
+            text-decoration: underline; /* 若触碰则显示下划线 */
+        }
+        .box{
+            width: 380px;
+            height: 514px;
+            margin: 50px auto; 
+            font-family: "微软雅黑";
+        }
+        .box .hd{
+            height: 36px;
+            border-bottom: 1px solid #eee;
+        }
+        .box .bd ul{
+            list-style: none;
+        }
+        .box .bd ul li{
+            padding: 24px 0;
+            height: 110px;
+            border-bottom: 1px solid #eee;
+        }
+        .box .hd h3{
+            float: left;
+            height: 22px;
+            border-left: 3px solid blue;
+            padding-left: 11px;
+            line-height: 22px; /* 行高 */
+            font-size: 20px;
+            font-weight: normal; /* 不加粗 */
+        }
+        .box .hd .right{
+            float: right;
+            font-size: 12px;
+        }
+        .box .hd .right a{
+            color: #666;
+        }
+        .box .bd ul li .pic{
+            float: left;
+            width: 165px;
+            height: 110px;
+            margin-right: 11px; 
+        }
+        .box .bd ul li .word{
+            float: right;
+            width: 204px;
+            height: 110px;
+        }
+        .box .bd ul li .word .title{
+            height: 32px;
+            background-color: #fafafa;
+            border-left: 1px solid red;
+        }
+        .box .bd ul li .word .title h4{
+            float: left;
+            padding-left: 6px;
+            color: red;
+            font-size: 16px;
+            line-height: 32px; /* 行高 */
+        }
+        .box .bd ul li .word .title .tip{
+            float: right;
+            font-size: 12px;
+            color: gray;
+            line-height: 32px;
+        }
+        .box .bd ul li .word .p1{
+            line-height: 34px;
+            font-size: 16px;
+            color: black;
+            padding-left: 20px; 
+        }
+        .box .bd ul li .word .p2{
+            line-height: 22 px;
+            font-size: 12px;
+            color: gray;
+        }
+        .box .bd ul li .word .p2 a{
+            color: skyblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="hd">
+            <h3>腾讯出品</h3>
+            <div class="right">
+                <a href="">换一换</a>
+            </div>
+        </div>
+        <div class="bd">
+            <ul>
+                <li>
+                    <div class="pic">
+                        <a href="">
+                            <img src="images/qq1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="word">
+                        <div class="title">
+                            <h4>有求必应</h4>
+                            <div class="tip">
+                                周一晚7点直播
+                            </div>
+                        </div>
+                        <p class="p1"><a href="">文字文字文字</a></p>
+                        <p class="p2">文字文字文字文字文字...[<a href="">详细</a>]</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="pic">
+                        <a href="">
+                            <img src="images/qq1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="word">
+                        <div class="title">
+                            <h4>有求必应</h4>
+                            <div class="tip">
+                                周一晚7点直播
+                            </div>
+                        </div>
+                        <p class="p1"><a href="">文字文字文字</a></p>
+                        <p class="p2">文字文字文字文字文字...[<a href="">详细</a>]</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="pic">
+                        <a href="">
+                            <img src="images/qq1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="word">
+                        <div class="title">
+                            <h4>有求必应</h4>
+                            <div class="tip">
+                                周一晚7点直播
+                            </div>
+                        </div>
+                        <p class="p1"><a href="">文字文字文字</a></p>
+                        <p class="p2">文字文字文字文字文字...[<a href="">详细</a>]</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

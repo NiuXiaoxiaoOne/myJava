@@ -1,0 +1,41 @@
+// 弹出框
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <input type="submit" name="Submit" value="alert" onclick="ale()">
+    <br>
+    <input type="submit" name="Submit" value="confirm" onclick="firm()">
+    <br>
+    <input type="submit" name="Submit" value="prompt" onclick="prom()">
+    <br>
+
+    <script type="text/javascript">
+        // 警告框
+        function ale(){
+            alert("提示信息！");
+        }
+        // 提交框
+        function firm(){
+            if (confirm("你确定提交吗？")){
+                alert("点击了确定");
+            } else {
+                alert("点击了取消");
+            }
+        }
+        // 输入框
+        function prom(){
+            var name = prompt("请输入您的名字: ", "");
+            if (name){
+                alert("欢迎您：" + name);
+            }
+        }
+
+    </script>
+</body>
+</html>

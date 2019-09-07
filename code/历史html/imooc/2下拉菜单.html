@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">注册信息</h1>
+    <hr width="80%" color="gray" align="center"/>
+    <form action="">
+        <table align="center" width="80%px">
+            <tr>
+                <td align="right" width="50%">姓名：</td>
+                <td align="left" width="50%"><input type="text" name="username" size="25" maxlength="6" placeholder="输入你的姓名"/></td>
+            </tr>
+            <tr>
+                <td align="right" width="50%">邮箱：</td>
+                <td align="left" width="50%"><input type="text" name="email" size="35" placeholder="输入你的邮箱" value="@163.com"/></td>
+            </tr>
+            <tr>
+                <td align="right" width="50%">密码：</td>
+                <td align="left" width="50%"><input type="password" name="paw" size="25" placeholder="请输入你的密码"/></td>
+            </tr>
+            <tr>
+                <td align="right" width="50%">再次输入：</td>
+                <td align="left" width="50%"><input type="password" name="paw_confirm" size="25" placeholder="请再次输入你的密码"/></td>
+            </tr>
+            <tr>
+                <td align="right" width="50%">上传照片：</td>
+                <td align="left" width="50%"><input type="file" name="file" value="上传"/></td>
+            </tr>
+            <tr>
+                <td align="right" width="50%">性别：</td>
+                <td align="left" width="50%">
+                    男<input type="radio" name="sex" value="man"/>
+                    女<input type="radio" name="sex" value="woman"/>
+                    保密<input type="radio" name="sex" value="secret" checked/>
+                </td>
+            </tr>
+            <tr>
+                <td align="right" width="50%">兴趣：</td>
+                <td align="left" width="50%">
+                    跳舞<input type="checkbox" name="dx1" value="dance"/>
+                    唱歌<input type="checkbox" name="dx2" value="sing"/>
+                    其他<input type="checkbox" name="dx3" value="other" checked/>
+                </td>
+            </tr>
+            <tr>
+                <td align="right" width="50%">城市：</td>
+                <td align="left" width="50%">
+                    <select name="city">
+                        <option value="other" selected>--请选择--</option>
+                        <option value="beijing">北京</option>
+                        <option value="tianjin">天津</option>
+                        <option value="hubei">湖北</option>
+                    </select>
+                    <select name="city2" id="">
+                        <option value="other" selected>--请选择--</option>
+                        <optgroup label="华北">
+                            <option value="beijing">北京</option>
+                            <option value="tianjin">天津</option>
+                            <option value="hubei">湖北</option>
+                        </optgroup>
+                        <optgroup label="华南">
+                            <option value="666">666</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="right" width="50%">简介：</td>
+                <td align="left" width="50%">
+                    <textarea name="user_text" cols="20" rows="3" placeholder="请输入内容"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" name="submit_bottom" value="提交">
+                    <input type="reset" name="reset_bottom" value="重置">
+
+                </td>
+
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

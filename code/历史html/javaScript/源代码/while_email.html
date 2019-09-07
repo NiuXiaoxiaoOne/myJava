@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widt, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>验证email</title>
+    <script language="JavaScript">
+        function validate(f){
+            // 找到名为f的标记中的名为email的控件中的值
+            var value = f.email.value;
+            if (!/^\w+@\w+.\w+$/.test(value)){
+                alert("email格式错误");
+                // 聚焦标记f中的名为email的控件，并全选其中的内容
+                f.email.focus();
+                f.email.select();
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <form action="" method="POST" name="myform" onsubmit="return validate(myform)">
+        email: <input type="text" name="email">
+        <input type="submit" value="提交">
+    </form>    
+</body>
+</html>

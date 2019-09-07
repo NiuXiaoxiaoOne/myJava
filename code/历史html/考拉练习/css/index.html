@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        
+        h1{
+            color:red; /* 字体颜色 */
+        }
+
+        #title{
+            font-size:60px; /* 字体大小 */
+        }
+
+        .bt{
+            text-align: center; /* 字体位置 */
+        }
+        .danger{
+            text-decoration: underline; /* 下划线 */
+            font-weight:900;
+        }
+
+        .box2 p{
+            color:chartreuse;
+        }
+
+        p.special{ /* 交集选择器，既是p标签又是special类 */
+            color:cornflowerblue;
+        }
+
+        ol,ul{ /* 并集选择器，选择ol和ul标签 */
+            list-style: none; /* 去掉list前的标志 */
+        }
+
+        .box1 ul p.cur{ /* .box1类中ul标签中的既是p又是cur的 */
+            color:darkgoldenrod;
+        }
+
+        *{ /* 通配符选择器 */
+            color:darkmagenta;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title" class="bt">hello world!</h1>
+    <h1 class="bt danger">xiao lei</h1>
+    <div class="box1">
+        <ul>
+            <p class="cur">文字</p>
+            <p>文字</p>
+            <p>文字</p>
+            <p>文字</p>
+        </ul>
+    </div>
+    <div class="box2">
+        <p>文字</p>
+        <p>文字</p>
+        <p class="special">文字</p>
+        <p>文字</p>
+    </div>
+    <ol> <!-- 有序list -->
+        <li>项目</li>
+        <li>项目</li>
+        <li>项目</li>
+    </ol>
+    <ul> <!-- 无序list -->
+        <li>项目</li>
+        <li>项目</li>
+        <li>项目</li>
+    </ul>
+</body>
+</html>

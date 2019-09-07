@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .movie{
+            width: 1200px;
+            margin: 50px auto;
+            overflow: hidden;
+        }
+        .movie ul{
+            list-style: none;
+        }
+        .movie ul li{
+            float:left;
+            height: 240px;
+            position: relative;
+        }
+        .movie ul li .imax-pic{ /* 压盖 */
+            position: absolute;
+            bottom: 228px;
+            right: 124px;
+            width: 36px;
+            height: 14px;
+        }
+        .movie ul li .cover{ /* 遮罩 */
+            position: absolute;
+            width: 160px;
+            height: 220px;
+            top: 297px;
+            right: 0px;
+            background-color: rgba(0,0,0,0.7);
+            color: white;
+        }
+        .movie ul li:hover .cover{
+            top:0;
+        }
+    </style>
+</head>
+<body>
+    <div class="movie">
+        <ul>
+            <li>
+                <img src="images/p1.jpg" alt="">
+                <img class="imax-pic" src="images/p3.png" alt="">
+            </li>
+            <li>
+                <img src="images/p2.jpg" alt="">
+                <div class="cover">
+                    很好看
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

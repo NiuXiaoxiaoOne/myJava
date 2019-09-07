@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0; /* 外边距 */
+            padding: 0; /* 内边距 */
+        }
+        .header{ /* 外部盒子 */
+            height:60px;
+            background-color:#333;
+        }
+        .header .inner{ /* 中间盒子 */
+            height:60px;
+            width: 1000px;
+            margin:0 auto; /* 自动居中 */
+        }
+        .header .inner .logo{ /* logo盒子 */
+            float: left; /* 左浮动 */
+            width: 200px;
+            height: 56px;
+            margin-right: 40px;
+        }
+        .header .inner .logo img{
+            width:200px;
+            height:60px;
+        }
+        .header .inner .nav{ /* logo旁盒子 */
+            float: left;
+            width: 760px;
+            height: 60px;
+        }
+        .header .inner .nav ul{
+            list-style: none;
+        }
+        .header .inner .nav ul li{
+            float: left;
+            width: 95px;
+            height: 60px;
+            line-height: 60px; /* 文字高度 */
+        }
+        .header .inner .nav ul li a{
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            display: block;
+            width: 95px;
+            height: 60px;
+        }
+        .header .inner .nav ul li a:hover{
+            background-color: gold;
+            color: #333;
+            border-bottom: 2px solid blue; /* 下边线 */
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="inner">
+            <div class="logo">
+                <img src="images/logo.png" alt="">
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href=""></a>网站栏目</li>
+                    <li><a href=""></a>网站栏目</li>
+                    <li><a href=""></a>网站栏目</li>
+                    <li><a href=""></a>网站栏目</li>
+                    <li><a href=""></a>网站栏目</li>
+                    <li><a href=""></a>网站栏目</li>
+                    <li><a href=""></a>网站栏目</li>
+                    <li><a href=""></a>网站栏目</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

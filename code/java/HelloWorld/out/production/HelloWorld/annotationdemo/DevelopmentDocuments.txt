@@ -1,0 +1,23 @@
+annotationdemo Package:
+
+Annotation学习，第16章，P560
+
+=====
+
+*.java:
+
+DeprecatedAnnoation: 在类中@Deprecated的应用 P562
+
+SuppressWarningsAnnoation: 应用@SuppressWarnings P563
+
+EnumAnnoation: 使用枚举来限定Annotation中变量的范围 P568
+
+ReflectAnnoationOne: 反射应用1: 找出SimpleBeanOne类中toString()的Annoation P569
+
+ReflectAnnoationTwo: 反射应用2: 查看指定注释的指定默认变量内容 P570
+
+TargetAnnotation: 自定义一个Annotation, 可以指定多个范围，需要用大括号包起来 P573
+
+DocumentedAnnotation: @Documented的应用 P574
+
+InheritedAnnotation: @Inherited的应用 P576

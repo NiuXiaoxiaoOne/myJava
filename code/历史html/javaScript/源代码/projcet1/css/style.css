@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: #14191e;
+}
+.main {
+    width: 1200px;
+    height: 460px;
+    margin: 30px auto;
+    overflow: hidden;
+    position: relative;
+}
+/* 图片 */
+.banner {
+    width: 1600px;
+    height: 460px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.banner-slide {
+    width: 1600px;
+    height: 460px;
+    background-repeat: no-repeat; 
+    position: absolute;  /* 用绝对定位来固定三张图片在一个位置上 */
+    display: none;
+}
+.slide-active {
+    display: block;
+}
+.slide1 {
+    background-image: url(../img/bg1.jpg);
+}
+.slide2 {
+    background-image: url(../img/bg2.jpg);
+}
+.slide3 {
+    background-image: url(../img/bg3.jpg);
+}
+/* 左右侧按钮 */
+.button {
+    position: absolute;
+    width: 40px;
+    height: 80px;
+    left: 244px; /* 按钮左边与main盒子的距离 */
+    top: 50%;
+    margin-top: -40px; /*上边是负的按钮高度的一半*/
+    background: url(../img/arrow.png) no-repeat center center;
+}
+/* 触碰后产生阴影效果 */
+.button:hover {
+    background-color: black;
+    opacity: 0.2; /*透明度*/
+    filter: alpha(opacity=20); /*适配浏览器*/
+}
+.prev {
+    transform: rotate(180deg); /*旋转图片180度*/
+}
+.next {
+    left: auto;
+    right: 0;
+}
+/* 右下侧圆点按钮 */
+.dots {
+    position: absolute;
+    right: 50px;
+    bottom: 24px;
+    text-align: right;
+}
+.dots span {
+    display: inline-block; /*圆点水平排列在一条直线*/
+    /* 创建一个圆点 */
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+    border-radius: 50%;
+    /*第四个数字是透明度*/
+    background: rgba(7, 17, 27, 0.4);
+    /* 阴影颜色，内部阴影*/
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.8) inset;
+    margin-left: 8px;
+    cursor: pointer;
+}
+/* 产生实体圆点 */
+.dots span.active {
+     box-shadow: 0 0 0 2px rgba(7, 17, 27, 0.4) inset;
+     background: white;
+}
+
+/* 侧边栏菜单 */
+.menu-box {
+    width: 244px;
+    height: 460px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(7, 17, 27, 0.5);
+    opacity: 0.5;
+    z-index: 1;
+    text-align: 
+}
+.menu-content {
+    width: 244px;
+    height: 454px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    padding-top: 6px;
+}

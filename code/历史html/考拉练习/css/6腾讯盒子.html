@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            width: 380px;
+            height: 514px;
+            margin: 50px auto;
+        }
+        .box .hd{
+            border-bottom: 1px solid #000;
+            padding-bottom: 14px;
+            height: 36px;
+        }
+        .box .hd h3{
+            float: left;
+            border-left: 3px solid blue;
+            padding-left: 10px;
+            font-size: 22px;
+            line-height: 22px;
+        }
+        .box .hd .hyh_box{
+            float: right;
+            font-size: 14px;
+            line-height: 33px;
+        }
+        .box .hd .clearfix{
+            clear: both;
+            height: 0px;
+            overflow: hidden;
+        }
+        .box .hd a{
+            color: #ccc;
+            text-emphasis: none;
+        }
+        .box .bd ul{
+            list-style: none;
+        }
+        .box .bd ul li{
+            overflow: hidden;
+            padding: 24px 0;
+            border-bottom: 1px solid #000;
+        }
+        .box .bd ul li .pic{
+             float:left;
+             width: 165px;
+             height: 110px;
+             background-color: orange;
+             margin-right: 11px;
+        }
+        .box .bd ul li .word{
+            float: right; 
+            width: 204px;
+        }
+        .box .bd ul li .word .sub_title{
+            border-left: 1px solid red;
+            height: 26px;
+            background-color: #eee;
+            overflow: hidden;
+        }
+        .box .bd ul li .word .sub_title h4{
+            float: left;
+            line-height: 26px;
+            padding-left: 10px;
+        }
+        .box .bd ul li .word .sub_title .tip{
+            float: right;
+            line-height: 26px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="hd">
+            <h3>腾讯出品</h3>
+            <div class="hyh_box">
+                <a href="">换一换</a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="bd">
+            <ul>
+                <li>
+                    <div class="pic"></div>
+                    <div class="word">
+                        <div class="sub_title">
+                            <h4>有球必赢</h4>
+                            <div class="tip">更新时间</div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="pic"></div>
+                    <div class="word"></div>
+                </li>
+                <li>
+                    <div class="pic"></div>
+                    <div class="word"></div>    
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
