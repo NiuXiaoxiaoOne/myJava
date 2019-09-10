@@ -19,6 +19,16 @@
   <component name="ProjectId" id="1QHU1UXxn8pD4hsLz0ohvJmQVna" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/queueandstackdemo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="queueandstackdemo.queuedemo" />
+      <recent name="queueandstackdemo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/queueandstackdemo" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -32,13 +42,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (1)">
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlistdemo.Test" />
+  <component name="RunManager" selected="Application.ArrayQueue">
+    <configuration name="ArrayQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queueandstackdemo.queuedemo.ArrayQueue" />
       <module name="AlgorithmAndDataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedlistdemo.*" />
+          <option name="PATTERN" value="queueandstackdemo.queuedemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -46,8 +56,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arraydemo.Test" />
+    <configuration name="Problem1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queueandstackdemo.Problem1" />
+      <module name="AlgorithmAndDataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="queueandstackdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arraydemo.TestArrayDemo" />
       <module name="AlgorithmAndDataStructure" />
       <extension name="coverage">
         <pattern>
@@ -59,10 +82,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestArrayDemoGeneric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arraydemo.TestArrayDemoGeneric" />
+      <module name="AlgorithmAndDataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arraydemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestArrayStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queueandstackdemo.test.TestArrayStack" />
+      <module name="AlgorithmAndDataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="queueandstackdemo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ArrayQueue" />
+        <item itemvalue="Application.Problem1" />
+        <item itemvalue="Application.TestArrayStack" />
+        <item itemvalue="Application.TestArrayDemo" />
+        <item itemvalue="Application.TestArrayDemoGeneric" />
       </list>
     </recent_temporary>
   </component>
@@ -81,6 +133,11 @@
       <workItem from="1567600383841" duration="3548000" />
       <workItem from="1567625608240" duration="2689000" />
       <workItem from="1567656550796" duration="46000" />
+      <workItem from="1567948664893" duration="2394000" />
+      <workItem from="1567971388124" duration="3146000" />
+      <workItem from="1568120529244" duration="3519000" />
+      <workItem from="1568130170595" duration="2424000" />
+      <workItem from="1568139395532" duration="3178000" />
     </task>
     <servers />
   </component>

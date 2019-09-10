@@ -1,0 +1,8 @@
+arraydemo Package:
+
+*.java:
+=====
+
+ArrayDemo: 实现一个数组
+
+ArrayDemoGeneric: ArrayDemo.java的泛型实现和动态数组

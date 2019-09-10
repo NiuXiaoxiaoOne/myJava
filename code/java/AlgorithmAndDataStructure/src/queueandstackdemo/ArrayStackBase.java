@@ -1,14 +1,17 @@
-package stackdemo;
+package queueandstackdemo;
 
 /**
  * @author xiaolei
+ * 数组栈
+ * push()入栈
+ * pop()出栈
  */
-public class ArrayStack {
+public class ArrayStackBase {
     private String[] items;
     private int count;
     private int n;
 
-    public ArrayStack(int n) {
+    public ArrayStackBase(int n) {
         this.items = new String[n];
         this.n = n;
         this.count = 0;

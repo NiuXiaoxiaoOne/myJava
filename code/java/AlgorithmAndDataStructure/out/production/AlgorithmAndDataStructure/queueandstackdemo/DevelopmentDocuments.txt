@@ -1,0 +1,20 @@
+queueandstackdemo Package: queue和stack实现
+
+*.java:
+=====
+
+Queue:
+
+ArrayQueueBase: Queue的基础实现
+
+=====
+
+Stack:
+
+ArrayStackBase: Stack的基础实现
+
+ArrayStack: 利用ArrayDemoGeneric实现Stack
+
+Stack: ArrayStack的接口
+
+test Package: queueandstackdemo的测试包

@@ -1,0 +1,27 @@
+annotationdemo Package:
+
+JDBC学习，第17章，P600
+
+=====
+
+*.java:
+
+InsertSql: 添加操作 P604
+
+UpdateSql: 更新操作 P606
+
+DeleteSql: 删除操作 P607
+
+=====
+
+resultdemo Package:
+
+SelectSql: 用ResultSet来查询语句 P609
+
+=====
+
+preparedstatementdemo Package:
+
+InsertSql: PreparedStatement的插入和更新操作应用 P612
+
+SelectSql: preparedStatement的查询操作 P613
